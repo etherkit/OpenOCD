@@ -21,6 +21,7 @@
 #define JTAG_USB_COMMON_H
 
 #include <usb.h>
+#include <sys/types.h>
 
 int jtag_usb_open(const uint16_t vids[], const uint16_t pids[],
 		struct usb_dev_handle **out);
